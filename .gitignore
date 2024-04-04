@@ -17,8 +17,8 @@ dist-ssr
 /cypress/screenshots/
 
 # Editor directories and files
-./demoappu01/.vscode
-./demoapp/.vscode
+!./demoappu01/.vscode
+!./demoapp/.vscode
 .idea
 *.suo
 *.ntvs*

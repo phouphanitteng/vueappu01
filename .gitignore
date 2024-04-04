@@ -27,4 +27,5 @@ dist-ssr
 *.sw?
 ./demoapp/node_modules
 ./demoappu01/node_modules
-
+U:\Training\VueJS\Vue2\demoappu01\.vscode
+U:\Training\VueJS\Vue2\demoapp\.vscode

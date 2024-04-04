@@ -1,0 +1,10 @@
+npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+
+# run command line
+$ npm install vue@^2
+
+$ npm create vite@latest my-project -- --template vue
+$ npm create vue@^2.2.0
+$ npm init vue@^2.7.16

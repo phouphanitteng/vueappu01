@@ -17,7 +17,7 @@ dist-ssr
 /cypress/screenshots/
 
 # Editor directories and files
-.vscode
+./demoappu01/.vscode
 !.vscode/extensions.json
 .idea
 *.suo
@@ -25,3 +25,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+./demoapp/node_modules
+./demoappu01/node_modules
+

@@ -18,15 +18,10 @@ import ComponentB from "@/components/pageA/ComponentB.vue"
 import Header from "@/components/pageA/Header.vue"
 import Footer from "@/components/pageA/Footer.vue"
 export default {
-
     name: "PageA",
     components:{
-        ComponentA,
-        ComponentB,
-        Header,
-        Footer,
+        ComponentA,ComponentB,Header,Footer,
     }
-    
 }
 </script>
 <style scoped>

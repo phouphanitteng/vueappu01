@@ -38,6 +38,36 @@ const router = new VueRouter({
       component: PageB
     },
     {
+      path: '/props',
+      name: 'props',
+      component: () => import('@/views/props/ParentComponent.vue')
+    },
+    {
+      path: '/event',
+      name: 'event',
+      component: () => import('@/views/CustomEvent/UsingEmitParent.vue')
+    },
+    {
+      path: '/slots',
+      name: 'slots',
+      component: () => import('@/views/slots/ParentSlots.vue')
+    },
+    {
+      path: '/mounted',
+      name: 'mounted',
+      component: () => import('@/views/Mounted.vue')
+    },
+    {
+      path: '/dynamic',
+      name: 'dynamic',
+      component: () => import('@/views/dynamiccomponent/DynamicDisplay.vue')
+    },
+    {
+      path: '/dynamicasyne',
+      name: 'dynamdynamicasyne',
+      component: () => import('@/views/dynamiccomponent/async/AsyncComponent.vue')
+    },
+    {
       path: '/computed',
       name: 'computed',
       // route level code-splitting

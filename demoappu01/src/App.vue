@@ -16,6 +16,16 @@ import HelloWorld from './components/HelloWorld.vue'
         <nav>
           <router-link to="/pageA">Page A</router-link>
           <router-link to="/pageB">Page B</router-link>
+          <router-link to="/props">Props</router-link>
+          <router-link to="/event">Event</router-link>
+        </nav>
+        <nav>
+          <router-link to="/mounted">Mounted</router-link>
+          <router-link to="/slots">Slots</router-link>
+          <router-link to="/dynamic">Dynamic Component</router-link>
+        </nav>
+        <nav>
+          <router-link to="/dynamicasyne">Async Component</router-link>
         </nav>
       </div>
     </header>

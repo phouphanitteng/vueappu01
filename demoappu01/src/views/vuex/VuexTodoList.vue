@@ -1,18 +1,18 @@
 <template>
-  <div id="app" class="container">
+  <div class="container">
     <h1>To-Do Application using Vue.js</h1>
-    <MyTodoForm />
-    <MyTodoList />
+    <TodoFormState />
+    <TodoListState />
   </div>
 </template>
 <script>
-import MyTodoForm from "@/components/todolist/TodoFrom.vue";
-import MyTodoList from "@/components/todolist/TodoList.vue";
+import TodoFormState from '@/components/todolist/TodoFormState.vue';
+import TodoListState from '@/components/todolist/TodoListState.vue';
 
 export default {
   components: {
-    MyTodoList,
-    MyTodoForm,
+    TodoFormState,
+    TodoListState,
   },
 };
 </script>

@@ -13,26 +13,26 @@
 </template>
   
 <script>
-// export default {
-//     computed: {
-//         mytodos() {
-//             return this.$store.state.myTodoList;
-//         },
-//         todoComplete() {
-//             return this.$store.getters.finalTodosLength;
-//         },
-//     },
-//     methods: {
-//         updateTodo: function (todo) {
-//             this.$store.commit('updateTodo', todo.id);
-//         },
-//         submitTodo: function (event) {
-//             event.preventDefault();
-//             this.$store.commit('addTodo', this.todo);
-//             this.todo = '';
-//         },
-//     },
-// };
+export default {
+    computed: {
+        mytodos() {
+            return this.$store.state.myTodoList;
+        },
+        todoComplete() {
+            return this.$store.getters.finalTodosLength;
+        },
+    },
+    methods: {
+        updateTodo: function (todo) {
+            this.$store.commit('updateTodo', todo.id);
+        },
+        submitTodo: function (event) {
+            event.preventDefault();
+            this.$store.commit('addTodo', this.todo);
+            this.todo = '';
+        },
+    },
+};
 </script>
   
   

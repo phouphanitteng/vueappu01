@@ -1,0 +1,1 @@
+import{n as e}from"./index.9ae38a9d.js";const s={};var t=function(){var n=this;return n._self._c,n._m(0)},o=[function(){var _=this,n=_._self._c;return n("div",[n("h1",[_._v("This is the Async Component!")])])}],r=e(s,t,o,!1,null,"1f0ebd9a",null,null);const a=r.exports;export{a as default};

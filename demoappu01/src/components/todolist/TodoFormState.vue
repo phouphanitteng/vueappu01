@@ -30,8 +30,8 @@
   }
   
   .formInput {
-    width: 30em;
-    padding: 20px;
+    width: 20em;
+    padding: 10px;
     margin-right: 8px;
     border: 2px solid #1393d4;
     border-radius: 1em;
@@ -39,8 +39,8 @@
   }
   
   .formBtn {
-    width: 10em;
-    padding: 20px;
+    width: 5em;
+    padding: 10px;
     margin-right: 8px;
     border: 2px solid #1393d4;
     border-radius: 1em;

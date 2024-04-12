@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>To-Do Application using Vue.js</h1>
+    <h1>Todo list using Vuex for State Management</h1> <br>
     <TodoFormState />
     <TodoListState />
   </div>

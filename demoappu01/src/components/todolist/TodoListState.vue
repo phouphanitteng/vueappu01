@@ -42,19 +42,19 @@ export default {
 }
 
 .todo-computed-item {
-    width: 40em;
+    width: 20em;
     margin-bottom: 10px;
-    padding: 8px;
-    border: 2px solid #03344c;
+    padding: 5px;
+    border: 1px solid #638291;
     border-radius: 0.5em;
     font-size: 20px;
-    color: #1393d4;
+    color: #7693a2;
     display: flex;
     justify-content: space-between;
 }
 
 .check-box {
-    width: 2em;
+    width: 1.5em;
     border: 1px solid #1393d4;
 }
 

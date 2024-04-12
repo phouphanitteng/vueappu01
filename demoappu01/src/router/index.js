@@ -63,6 +63,16 @@ const router = new VueRouter({
       component: () => import('@/views/dynamiccomponent/DynamicDisplay.vue')
     },
     {
+      path: '/vuex',
+      name: 'vuex',
+      component: () => import('@/views/vuex/VuexTodoList.vue')
+    },
+    {
+      path: '/element-component-access',
+      name: 'elementcomponentaccess',
+      component: () => import('@/views/elementcomponentaccess/ParentComponent.vue')
+    },
+    {
       path: '/dynamicasyne',
       name: 'dynamdynamicasyne',
       component: () => import('@/views/dynamiccomponent/async/AsyncComponent.vue')

@@ -27,10 +27,16 @@ import HelloWorld from './components/HelloWorld.vue'
         <nav>
           <router-link to="/dynamicasyne">Async Component</router-link>
           <router-link to="/element-component-access">Element&Component Access</router-link>
-
         </nav>
         <nav>
           <router-link to="/vuex">Vuex State Management</router-link>
+        </nav>
+        <nav>
+          <router-link to="/axios">Consume API with Axios</router-link>
+          <router-link to="/fetch">Consume API with Fetch</router-link>
+        </nav>
+        <nav>
+          <router-link to="/tailwindcss">Tailwind CSS</router-link>
         </nav>
       </div>
     </header>

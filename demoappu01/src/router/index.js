@@ -78,6 +78,21 @@ const router = new VueRouter({
       component: () => import('@/views/dynamiccomponent/async/AsyncComponent.vue')
     },
     {
+      path: '/axios',
+      name: 'axios',
+      component: () => import('@/views/consumeApi/AXIOSView.vue')
+    },
+    {
+      path: '/fetch',
+      name: 'fetch',
+      component: () => import('@/views/consumeApi/FetchView.vue')
+    },
+    {
+      path: '/tailwindcss',
+      name: 'tailwindcss',
+      component: () => import('@/views/CSSFramework/TailwindCSS.vue')
+    },
+    {
       path: '/computed',
       name: 'computed',
       // route level code-splitting

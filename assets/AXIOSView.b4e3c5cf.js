@@ -1,0 +1,1 @@
+import{n as r,a as s}from"./index.efba2962.js";const o={data(){return{info:null}},mounted(){s.get("https://api.coindesk.com/v1/bpi/currentprice.json").then(t=>this.info=t)}};var a=function(){var n=this,e=n._self._c;return e("div",{attrs:{id:"appAxios"}},[n._v(" "+n._s(n.info)+" ")])},i=[],_=r(o,a,i,!1,null,null,null,null);const l=_.exports;export{l as default};
